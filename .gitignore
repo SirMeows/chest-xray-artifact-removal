@@ -5,8 +5,43 @@ build/
 dist/
 wheels/
 *.egg-info
+.DS_Store
 
 # Virtual environments
 .venv
-chest_xray
 .idea
+
+# Local datasets and archives
+/chest_xray*/
+/chest_xray*.zip
+
+# Personal & agent docs — never upload
+docs/
+.agent/
+.agents/
+.claude/
+.codex/
+.junie/
+.cursor/
+.windsurf/
+.continue/
+.roo/
+.aider*
+.clinerules
+.cursorrules
+.windsurfrules
+.roorules
+AGENTS*.md
+CLAUDE*.md
+GEMINI.md
+SKILL.md
+.github/copilot-instructions.md
+.github/instructions/
+.github/agents/
+.github/prompts/
+.github/skills/
+scratch_*.txt
+
+# Excluded exam report
+/report/
+/ma-2-report.pdf
