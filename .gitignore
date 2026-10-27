@@ -45,3 +45,6 @@ scratch_*.txt
 # Excluded exam report
 /report/
 /ma-2-report.pdf
+
+# Local machine setup notes
+/windows-setup.md
